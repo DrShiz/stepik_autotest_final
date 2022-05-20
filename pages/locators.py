@@ -13,3 +13,4 @@ class ProductPageLocators():
     ORIGINAL_INFO = (By.CLASS_NAME, "product_main")
     BOOK_NAME_IN_BASKET = (By.XPATH, "//*[@id='messages']/div[1]/div/strong")
     BOOK_PRICE_IN_BASKET = (By.XPATH, "//*[@id='messages']/div[3]/div/p[1]/strong")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert-success")
